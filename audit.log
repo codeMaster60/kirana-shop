@@ -1,0 +1,487 @@
+2026-09-05T19:26:54	session_start	8 items loaded from catalog.json
+2026-09-05T19:26:54	buyer_request	"something to kill mosquitoes in my bedroom"
+2026-09-05T19:26:57	gemini_match	p2 Godrej HIT Anti Mosquito Spray - Godrej HIT Anti Mosquito Spray is specifically designed to eliminate mosquitoes.
+2026-09-05T19:26:57	stock_check	p2 IN STOCK - owner said yes
+2026-09-05T19:26:58	payment_link	p2 plink_TYNboJHbdTW35c Rs.280 https://rzp.io/rzp/NIVXYV8i
+2026-09-05T19:26:58	session_end	buyer left
+2026-09-05T19:27:06	session_start	8 items loaded from catalog.json
+2026-09-05T19:27:06	buyer_request	"i need ghee"
+2026-09-05T19:27:10	gemini_match	p1 Amul High Aroma Cow Ghee Jar 200ml - Amul High Aroma Cow Ghee directly matches the request for ghee.
+2026-09-05T19:27:10	stock_check	p1 OUT OF STOCK - owner said no
+2026-09-05T19:27:10	refusal	p1 sale cancelled - no payment link created, nothing charged
+2026-09-05T19:27:21	gemini_suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - Since the ghee is out of stock, Saffola Crunchy Peanut Butter is a great wholesome, high-energy option for your pantry!
+2026-09-05T19:27:21	session_end	buyer left
+2026-09-05T19:27:30	session_start	8 items loaded from catalog.json
+2026-09-05T19:27:30	buyer_request	"do you have a bicycle tyre"
+2026-09-05T19:27:32	gemini_match	no match - "do you have a bicycle tyre" - None of the items in the catalog are related to bicycle tyres.
+2026-09-05T19:27:32	refusal	no catalog match for "do you have a bicycle tyre" - nothing charged
+2026-09-05T19:27:32	session_end	buyer left
+2026-09-05T19:29:15	session_start	8 items loaded from catalog.json
+2026-09-05T19:30:03	buyer_request	"I want ghee"
+2026-09-05T19:30:16	gemini_match	p1 Amul High Aroma Cow Ghee Jar 200ml - Amul High Aroma Cow Ghee directly matches the customer's request for ghee.
+2026-09-05T19:30:43	stock_check	p1 IN STOCK - owner said yes
+2026-09-05T19:30:45	payment_link	p1 plink_TYNfnhMXRTvFw0 Rs.135 https://rzp.io/rzp/ZzCJBEw3
+2026-09-05T19:31:22	buyer_request	"i want chocolates"
+2026-09-05T19:31:30	gemini_match	no match - "i want chocolates" - The shop catalog does not contain any chocolate products.
+2026-09-05T19:31:30	refusal	no catalog match for "i want chocolates" - nothing charged
+2026-09-05T19:31:39	buyer_request	"what about soaps?"
+2026-09-05T19:32:04	gemini_match	no match - "what about soaps?" - The catalog does not contain any bath or body soaps.
+2026-09-05T19:32:04	refusal	no catalog match for "what about soaps?" - nothing charged
+2026-09-05T19:33:17	buyer_request	"what all do u have?"
+2026-09-05T19:33:31	gemini_match	no match - "what all do u have?" - The user is asking a general question about the entire inventory rather than searching for a specific product.
+2026-09-05T19:33:31	refusal	no catalog match for "what all do u have?" - nothing charged
+2026-09-05T19:34:00	buyer_request	"earphones?"
+2026-09-05T19:34:04	gemini_match	p8 Truke True Wireless Earbuds Charging Case (Black) - It is the only audio accessory in the catalog, designed specifically for wireless earbuds.
+2026-09-05T19:34:14	stock_check	p8 IN STOCK - owner said yes
+2026-09-05T19:34:14	payment_link	p8 plink_TYNjUf5KV1u1I4 Rs.899 https://rzp.io/rzp/CEVGvpj
+2026-09-05T19:35:48	buyer_request	"i want pens"
+2026-09-05T19:35:57	gemini_match	no match - "i want pens" - The shop catalog does not contain any pens or stationery items.
+2026-09-05T19:35:57	refusal	no catalog match for "i want pens" - nothing charged
+2026-09-05T19:37:53	buyer_request	"cd ~/kirana"
+2026-09-05T19:37:57	gemini_match	no match - "cd ~/kirana" - The request is a terminal shell command and does not match any product in the shop catalog.
+2026-09-05T19:37:57	refusal	no catalog match for "cd ~/kirana" - nothing charged
+2026-09-05T19:38:14	session_end	buyer left
+2026-09-05T19:53:49	session_start	8 items loaded from catalog.json
+2026-09-05T19:53:49	buyer_request	"soaps"
+2026-09-05T19:53:52	gemini_classify	category_request - matched p7 - buyer asked for soaps, dishwash gel is a soap-like product
+2026-09-05T19:53:52	stock_check	p7 IN STOCK - owner said yes
+2026-09-05T19:53:53	payment_link	p7 plink_TYO4EtR6bJCVZ4 Rs.20 https://rzp.io/rzp/jD6JColn
+2026-09-05T19:53:53	buyer_request	"what all do you have"
+2026-09-05T19:53:53	gemini_classify	catalog_question - matched - - buyer asks for a list of items
+2026-09-05T19:53:53	buyer_request	"how much is the ghee"
+2026-09-05T19:53:54	gemini_classify	product_question - matched p1 - User asked price of ghee
+2026-09-05T19:53:54	buyer_request	"something for cleaning"
+2026-09-05T19:53:55	gemini_classify	category_request - matched p7,p4 - buyer wants cleaning products
+2026-09-05T19:53:55	buyer_request	"i want chocolates"
+2026-09-05T19:54:03	gemini_classify	not_stocked - matched - - no chocolates in stock
+2026-09-05T19:54:03	gemini_suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "i want chocolates"
+2026-09-05T19:54:03	refusal	not stocked - "i want chocolates" - nothing charged
+2026-09-05T19:54:03	buyer_request	"i want ghee"
+2026-09-05T19:54:11	gemini_classify	product_request - matched p1 - User wants ghee, matched to p1
+2026-09-05T19:54:11	stock_check	p1 IN STOCK - owner said yes
+2026-09-05T19:54:12	payment_link	p1 plink_TYO4Zg4ECr9ymv Rs.135 https://rzp.io/rzp/BXeOjBk
+2026-09-05T19:54:12	session_end	buyer left
+2026-09-05T19:56:00	session_start	8 items loaded from catalog.json
+2026-09-05T19:56:00	buyer_request	"how much is the ghee"
+2026-09-05T19:56:01	classify	product_question - matched p1 - User asks price of ghee
+2026-09-05T19:56:01	buyer_request	"i want chocolates"
+2026-09-05T19:56:02	classify	not_stocked - matched - - We don't have chocolates, but you might enjoy our Saffola Crunchy Peanut Butter with Jaggery.
+2026-09-05T19:56:02	gemini_suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "i want chocolates"
+2026-09-05T19:56:02	refusal	not stocked - "i want chocolates" - nothing charged
+2026-09-05T19:56:02	session_end	buyer left
+2026-09-05T19:57:37	session_start	8 items loaded from catalog.json
+2026-09-05T19:57:37	buyer_request	"i want ghee"
+2026-09-05T19:57:38	classify	product_request - matched p1 - User wants ghee, which is stocked as product p1.
+2026-09-05T19:57:38	stock_check	p1 OUT OF STOCK - owner said no
+2026-09-05T19:57:38	refusal	p1 sale cancelled - no payment link created, nothing charged
+2026-09-05T19:57:39	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - If you need a tasty cooking spread, try our crunchy peanut butter with jaggery – it adds a rich flavor to dishes!
+2026-09-05T19:57:39	buyer_request	"i want chocolates"
+2026-09-05T19:57:40	classify	not_stocked - matched - - no chocolates in catalog, suggest sweet snack
+2026-09-05T19:57:40	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "i want chocolates"
+2026-09-05T19:57:40	refusal	not stocked - "i want chocolates" - nothing charged
+2026-09-05T19:57:40	session_end	buyer left
+2026-09-05T19:58:38	session_start	8 items loaded from catalog.json
+2026-09-05T19:58:38	buyer_request	"soaps"
+2026-09-05T19:58:40	classify	category_request - matched p7 - User asked for soaps, matching dishwash gel
+2026-09-05T19:58:40	stock_check	p7 IN STOCK - owner said yes
+2026-09-05T19:58:42	payment_link	p7 plink_TYO9JwGy5bGgJx Rs.20 https://rzp.io/rzp/AmmK9y7
+2026-09-05T19:58:42	buyer_request	"what all do you have"
+2026-09-05T19:58:43	classify	catalog_question - matched - - User asked for the list of items.
+2026-09-05T19:58:43	buyer_request	"how much is the ghee"
+2026-09-05T19:58:44	classify	product_question - matched p1 - User asked the price of ghee
+2026-09-05T19:58:44	buyer_request	"something for cleaning"
+2026-09-05T19:58:45	classify	category_request - matched p7,p4 - buyer wants cleaning products, dishwash gel and room freshener match
+2026-09-05T19:58:45	buyer_request	"i want chocolates"
+2026-09-05T19:58:46	classify	not_stocked - matched - - We don't have chocolates, but have a sweet spread
+2026-09-05T19:58:46	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "i want chocolates"
+2026-09-05T19:58:46	refusal	not stocked - "i want chocolates" - nothing charged
+2026-09-05T19:58:46	buyer_request	"i want ghee"
+2026-09-05T19:58:47	classify	product_request - matched p1 - User explicitly requested ghee which is available in the catalog
+2026-09-05T19:58:47	stock_check	p1 OUT OF STOCK - owner said no
+2026-09-05T19:58:47	refusal	p1 sale cancelled - no payment link created, nothing charged
+2026-09-05T19:58:48	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - Our Saffola Crunchy Peanut Butter adds a rich, buttery flavor to your dishes, a tasty alternative to ghee!
+2026-09-05T19:58:48	session_end	buyer left
+2026-09-05T20:11:38	session_start	8 items loaded from catalog.json
+2026-09-05T20:11:46	buyer_request	"what do u have?"
+2026-09-05T20:11:47	classify	catalog_question - matched - - User asks for the shop's offerings
+2026-09-05T20:12:31	buyer_request	"the first one. the amul"
+2026-09-05T20:12:32	classify	product_request - matched p1 - buyer requested the Amul item, which matches p1
+2026-09-05T20:12:35	stock_check	p1 IN STOCK - owner said yes
+2026-09-05T20:12:36	payment_link	p1 plink_TYOO1REnFzbOs1 Rs.135 https://rzp.io/rzp/hYJabwCE
+2026-09-05T20:14:44	buyer_request	"cd ~/kirana"
+2026-09-05T20:14:45	classify	catalog_question - matched - - They seem to be asking to view the shop's catalog
+2026-09-05T20:14:45	buyer_request	"source venv/bin/activate"
+2026-09-05T20:14:47	classify	unclear - matched - - The request does not match any product or category
+2026-09-05T20:14:47	clarify	asked buyer: "Could you please tell us what product you are looking for?"
+2026-09-05T20:15:04	buyer_request	"/quit"
+2026-09-05T20:15:05	classify	unclear - matched - - User entered a quit command, unclear intent
+2026-09-05T20:15:05	clarify	asked buyer: "Could you please let me know what you are looking for?"
+2026-09-05T20:15:17	buyer_request	"have pens?"
+2026-09-05T20:15:18	classify	not_stocked - matched - - The shop has no pens in its catalog, so we indicate not_stocked and suggest a product it does carry.
+2026-09-05T20:15:18	suggest	p8 Truke True Wireless Earbuds Charging Case (Black) - closest to "have pens?"
+2026-09-05T20:15:18	refusal	not stocked - "have pens?" - nothing charged
+2026-09-05T20:15:29	buyer_request	"yep"
+2026-09-05T20:15:30	classify	unclear - matched - - Message is ambiguous
+2026-09-05T20:15:30	clarify	asked buyer: "Could you please let us know what you are looking for?"
+2026-09-05T20:15:40	buyer_request	"truke earphones"
+2026-09-05T20:15:41	classify	not_stocked - matched - - The shop only has a charging case, not the earphones themselves
+2026-09-05T20:15:41	suggest	p8 Truke True Wireless Earbuds Charging Case (Black) - closest to "truke earphones"
+2026-09-05T20:15:41	refusal	not stocked - "truke earphones" - nothing charged
+2026-09-05T20:15:52	buyer_request	"truke earbuds"
+2026-09-05T20:15:53	classify	not_stocked - matched - - they asked for earbuds which we don't stock, but have a charging case
+2026-09-05T20:15:53	suggest	p8 Truke True Wireless Earbuds Charging Case (Black) - closest to "truke earbuds"
+2026-09-05T20:15:53	refusal	not stocked - "truke earbuds" - nothing charged
+2026-09-05T20:16:54	buyer_request	"cd ~/kirana"
+2026-09-05T20:16:56	classify	catalog_question - matched - - User typed a directory command, implying they want to see the shop's catalog
+2026-09-05T20:16:58	buyer_request	"cd ~/kirana"
+2026-09-05T20:16:59	classify	catalog_question - matched - - The user seems to be trying to access the shop's catalog
+2026-09-05T20:16:59	buyer_request	"claude"
+2026-09-05T20:17:00	classify	unclear - matched - - User input does not match any catalog item
+2026-09-05T20:17:00	clarify	asked buyer: "Could you please tell me which product you are looking for?"
+2026-09-05T20:17:04	session_end	buyer left
+2026-09-05T20:19:46	buyer_request	"truke earphones"
+2026-09-05T20:19:47	resolve	product_request - matched p8 - ask=buy - Truke earbuds are the only earphone-like product in the catalog
+2026-09-05T20:19:47	stock_check	p8 OUT OF STOCK - owner said no
+2026-09-05T20:19:48	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "truke earphones"
+2026-09-05T20:19:48	refusal	p8 out of stock - "truke earphones" - nothing charged
+2026-09-05T20:19:48	buyer_request	"truke"
+2026-09-05T20:19:49	resolve	product_request - matched p8 - ask=buy - identified brand Truke in catalog
+2026-09-05T20:19:49	stock_check	p8 OUT OF STOCK - owner said no
+2026-09-05T20:19:50	suggest	p7 Vim Lemon Dishwash Gel Pouch - closest to "truke"
+2026-09-05T20:19:50	refusal	p8 out of stock - "truke" - nothing charged
+2026-09-05T20:19:50	buyer_request	"amul"
+2026-09-05T20:19:51	resolve	product_request - matched p1 - ask=buy - matched the brand name Amul
+2026-09-05T20:19:51	stock_check	p1 OUT OF STOCK - owner said no
+2026-09-05T20:19:53	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "amul"
+2026-09-05T20:19:53	refusal	p1 out of stock - "amul" - nothing charged
+2026-09-05T20:19:53	buyer_request	"vim"
+2026-09-05T20:19:54	resolve	product_request - matched p7 - ask=buy - The word matches the Vim dishwash gel product.
+2026-09-05T20:19:54	stock_check	p7 OUT OF STOCK - owner said no
+2026-09-05T20:19:55	suggest	p4 Pour Home French Flora Room Freshener (225 ml) - closest to "vim"
+2026-09-05T20:19:55	refusal	p7 out of stock - "vim" - nothing charged
+2026-09-05T20:19:55	buyer_request	"saffola"
+2026-09-05T20:19:56	resolve	product_request - matched p5 - ask=buy - They asked for the Saffola brand
+2026-09-05T20:19:56	stock_check	p5 OUT OF STOCK - owner said no
+2026-09-05T20:20:00	suggest	p6 Sweetch Natural Palm Sugar 250g - closest to "saffola"
+2026-09-05T20:20:00	refusal	p5 out of stock - "saffola" - nothing charged
+2026-09-05T20:20:00	buyer_request	"yoga bar"
+2026-09-05T20:20:09	resolve	product_request - matched p3 - ask=buy - buyer requested a specific product name
+2026-09-05T20:20:09	stock_check	p3 OUT OF STOCK - owner said no
+2026-09-05T20:20:13	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "yoga bar"
+2026-09-05T20:20:13	refusal	p3 out of stock - "yoga bar" - nothing charged
+2026-09-05T20:20:13	buyer_request	"godrej hit"
+2026-09-05T20:20:21	resolve	product_request - matched p2 - ask=buy - buyer asked for Godrej HIT mosquito spray
+2026-09-05T20:20:21	stock_check	p2 OUT OF STOCK - owner said no
+2026-09-05T20:20:26	suggest	p4 Pour Home French Flora Room Freshener (225 ml) - closest to "godrej hit"
+2026-09-05T20:20:26	refusal	p2 out of stock - "godrej hit" - nothing charged
+2026-09-05T20:20:26	buyer_request	"truk earphone"
+2026-09-05T20:20:34	resolve	product_request - matched p8 - ask=buy - Earphone request matches Truke earbuds
+2026-09-05T20:20:34	stock_check	p8 OUT OF STOCK - owner said no
+2026-09-05T20:20:40	suggest	p2 Godrej HIT Anti Mosquito Spray - closest to "truk earphone"
+2026-09-05T20:20:40	refusal	p8 out of stock - "truk earphone" - nothing charged
+2026-09-05T20:20:40	buyer_request	"amull ghee"
+2026-09-05T20:20:48	resolve	product_request - matched p1 - ask=buy - User wants to purchase Amul ghee
+2026-09-05T20:20:48	stock_check	p1 OUT OF STOCK - owner said no
+2026-09-05T20:20:54	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "amull ghee"
+2026-09-05T20:20:54	refusal	p1 out of stock - "amull ghee" - nothing charged
+2026-09-05T20:20:54	buyer_request	"penut buttter"
+2026-09-05T20:21:03	resolve	product_request - matched p5 - ask=buy - They misspelled 'peanut butter' and want to buy it
+2026-09-05T20:21:03	stock_check	p5 OUT OF STOCK - owner said no
+2026-09-05T20:21:08	suggest	p6 Sweetch Natural Palm Sugar 250g - closest to "penut buttter"
+2026-09-05T20:21:08	refusal	p5 out of stock - "penut buttter" - nothing charged
+2026-09-05T20:21:08	buyer_request	"mosqito spray"
+2026-09-05T20:21:17	resolve	product_request - matched p2 - ask=buy - User wants to buy a mosquito spray, which matches p2
+2026-09-05T20:21:17	stock_check	p2 OUT OF STOCK - owner said no
+2026-09-05T20:21:22	suggest	p4 Pour Home French Flora Room Freshener (225 ml) - closest to "mosqito spray"
+2026-09-05T20:21:22	refusal	p2 out of stock - "mosqito spray" - nothing charged
+2026-09-05T20:21:22	buyer_request	"musli"
+2026-09-05T20:21:31	resolve	product_request - matched p3 - ask=buy - User typed "musli", which matches the muesli cereal item.
+2026-09-05T20:21:31	stock_check	p3 OUT OF STOCK - owner said no
+2026-09-05T20:21:35	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "musli"
+2026-09-05T20:21:35	refusal	p3 out of stock - "musli" - nothing charged
+2026-09-05T20:21:35	buyer_request	"earbuds"
+2026-09-05T20:21:45	resolve	not_stocked - matched - - ask=buy - No exact earbuds, but related charging case
+2026-09-05T20:21:45	suggest	p8 Truke True Wireless Earbuds Charging Case (Black) - closest to "earbuds"
+2026-09-05T20:21:45	refusal	not stocked - "earbuds" - nothing charged
+2026-09-05T20:21:45	buyer_request	"earphones"
+2026-09-05T20:21:54	resolve	product_request - matched p8 - ask=buy - Earphones match the earbuds charging case
+2026-09-05T20:21:54	stock_check	p8 OUT OF STOCK - owner said no
+2026-09-05T20:21:58	suggest	p2 Godrej HIT Anti Mosquito Spray - closest to "earphones"
+2026-09-05T20:21:58	refusal	p8 out of stock - "earphones" - nothing charged
+2026-09-05T20:21:58	buyer_request	"wireless earbuds"
+2026-09-05T20:22:07	resolve	product_request - matched p8 - ask=buy - The buyer asked for wireless earbuds, which matches the Truke True Wireless Earbuds item.
+2026-09-05T20:22:07	stock_check	p8 OUT OF STOCK - owner said no
+2026-09-05T20:22:12	suggest	p3 Yoga Bar Millet Muesli Nuts & Seeds Crunch - closest to "wireless earbuds"
+2026-09-05T20:22:12	refusal	p8 out of stock - "wireless earbuds" - nothing charged
+2026-09-05T20:22:12	buyer_request	"peanut butter"
+2026-09-05T20:22:22	resolve	product_request - matched p5 - ask=buy - peanut butter directly matches p5
+2026-09-05T20:22:22	stock_check	p5 OUT OF STOCK - owner said no
+2026-09-05T20:22:27	suggest	p3 Yoga Bar Millet Muesli Nuts & Seeds Crunch - closest to "peanut butter"
+2026-09-05T20:22:27	refusal	p5 out of stock - "peanut butter" - nothing charged
+2026-09-05T20:22:27	buyer_request	"dishwash"
+2026-09-05T20:22:35	resolve	product_request - matched p7 - ask=buy - Buyer wants a dishwashing product
+2026-09-05T20:22:35	stock_check	p7 OUT OF STOCK - owner said no
+2026-09-05T20:22:42	suggest	p4 Pour Home French Flora Room Freshener (225 ml) - closest to "dishwash"
+2026-09-05T20:22:42	refusal	p7 out of stock - "dishwash" - nothing charged
+2026-09-05T20:22:42	buyer_request	"room freshener"
+2026-09-05T20:22:50	resolve	product_request - matched p4 - ask=buy - User wants a room freshener
+2026-09-05T20:22:50	stock_check	p4 OUT OF STOCK - owner said no
+2026-09-05T20:22:57	suggest	p2 Godrej HIT Anti Mosquito Spray - closest to "room freshener"
+2026-09-05T20:22:57	refusal	p4 out of stock - "room freshener" - nothing charged
+2026-09-05T20:22:57	buyer_request	"palm sugar"
+2026-09-05T20:23:04	resolve	product_request - matched p6 - ask=buy - User wants to purchase palm sugar.
+2026-09-05T20:23:04	stock_check	p6 OUT OF STOCK - owner said no
+2026-09-05T20:23:09	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "palm sugar"
+2026-09-05T20:23:09	refusal	p6 out of stock - "palm sugar" - nothing charged
+2026-09-05T20:23:09	buyer_request	"soap"
+2026-09-05T20:23:19	resolve	product_request - matched p7 - ask=buy - Dishwash gel is a type of soap.
+2026-09-05T20:23:19	stock_check	p7 OUT OF STOCK - owner said no
+2026-09-05T20:23:25	suggest	p4 Pour Home French Flora Room Freshener (225 ml) - closest to "soap"
+2026-09-05T20:23:25	refusal	p7 out of stock - "soap" - nothing charged
+2026-09-05T20:23:25	buyer_request	"something for cleaning"
+2026-09-05T20:23:33	resolve	category_request - matched p7,p4 - ask=category - buyer asked for cleaning products
+2026-09-05T20:23:33	buyer_request	"breakfast"
+2026-09-05T20:23:44	resolve	category_request - matched p3,p5,p1 - ask=category - They asked for breakfast items, so list relevant products
+2026-09-05T20:23:44	buyer_request	"something for mosquitoes"
+2026-09-05T20:23:54	resolve	product_request - matched p2 - ask=buy - The request asks for a product to deal with mosquitoes, which matches the anti‑mosquito spray
+2026-09-05T20:23:54	stock_check	p2 OUT OF STOCK - owner said no
+2026-09-05T20:24:01	suggest	p4 Pour Home French Flora Room Freshener (225 ml) - closest to "something for mosquitoes"
+2026-09-05T20:24:01	refusal	p2 out of stock - "something for mosquitoes" - nothing charged
+2026-09-05T20:24:01	buyer_request	"i need something sweet"
+2026-09-05T20:24:08	resolve	product_request - matched p5,p6 - ask=buy - They want a sweet item, so suggest peanut butter with jaggery and palm sugar.
+2026-09-05T20:24:08	stock_check	p5 OUT OF STOCK - owner said no
+2026-09-05T20:24:14	suggest	p3 Yoga Bar Millet Muesli Nuts & Seeds Crunch - closest to "i need something sweet"
+2026-09-05T20:24:14	refusal	p5 out of stock - "i need something sweet" - nothing charged
+2026-09-05T20:24:14	buyer_request	"i need something"
+2026-09-05T20:24:22	resolve	unclear - matched - - ask=vague - The request is too vague to match any item
+2026-09-05T20:24:22	clarify	asked buyer: "Could you tell me what kind of product you're looking for?"
+2026-09-05T20:24:22	buyer_request	"hello"
+2026-09-05T20:24:31	resolve	unclear - matched - - ask=vague - Greeting does not indicate a purchase or query
+2026-09-05T20:24:31	clarify	asked buyer: "How can I help you today?"
+2026-09-05T20:24:31	buyer_request	"asdkjfh"
+2026-09-05T20:24:39	resolve	unclear - matched - - ask=vague - The request is gibberish and lacks intent.
+2026-09-05T20:24:39	clarify	asked buyer: "Could you please clarify what you're looking for?"
+2026-09-05T20:24:39	buyer_request	"how much is the ghee"
+2026-09-05T20:24:49	resolve	product_question - matched p1 - ask=question - Asked price for ghee, matches p1
+2026-09-05T20:24:49	buyer_request	"what do you have"
+2026-09-05T20:24:59	resolve	catalog_question - matched - - ask=catalog - User asked for the shop's inventory.
+2026-09-05T20:24:59	buyer_request	"does the peanut butter have sugar"
+2026-09-05T20:25:12	resolve	product_question - matched p5 - ask=question - The buyer asks about sugar in peanut butter.
+2026-09-05T20:25:12	buyer_request	"what all do u have"
+2026-09-05T20:25:22	resolve	catalog_question - matched - - ask=catalog - User asked for the full catalog
+2026-09-05T20:25:22	buyer_request	"chocolates"
+2026-09-05T20:25:31	resolve	not_stocked - matched - - ask=buy - no chocolates, suggested sweet alternatives
+2026-09-05T20:25:31	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "chocolates"
+2026-09-05T20:25:31	refusal	not stocked - "chocolates" - nothing charged
+2026-09-05T20:25:31	buyer_request	"a pen"
+2026-09-05T20:25:41	resolve	not_stocked - matched - - ask=buy - No matching product for a pen
+2026-09-05T20:25:41	suggest	no alternative offered
+2026-09-05T20:25:41	refusal	not stocked - "a pen" - nothing charged
+2026-09-05T20:25:41	buyer_request	"cigarettes"
+2026-09-05T20:25:50	resolve	not_stocked - matched - - ask=buy - No cigarettes in catalog
+2026-09-05T20:25:50	suggest	no alternative offered
+2026-09-05T20:25:50	refusal	not stocked - "cigarettes" - nothing charged
+2026-09-05T20:25:50	buyer_request	"petrol"
+2026-09-05T20:25:59	resolve	not_stocked - matched - - ask=buy - No petrol in catalog, closest item is a spray
+2026-09-05T20:25:59	suggest	p2 Godrej HIT Anti Mosquito Spray - closest to "petrol"
+2026-09-05T20:25:59	refusal	not stocked - "petrol" - nothing charged
+2026-09-05T20:26:39	buyer_request	"truke earphones"
+2026-09-05T20:26:41	resolve	product_request - matched p8 - ask=buy - The buyer wants Truke earphones; the catalog includes a Truke product (earbuds/charging case) that best matches the request
+2026-09-05T20:26:41	stock_check	p8 OUT OF STOCK - owner said no
+2026-09-05T20:26:42	suggest	p2 Godrej HIT Anti Mosquito Spray - closest to "truke earphones"
+2026-09-05T20:26:42	refusal	p8 out of stock - "truke earphones" - nothing charged
+2026-09-05T20:26:42	buyer_request	"truke"
+2026-09-05T20:26:43	resolve	product_request - matched p8 - ask=buy - The brand name "truke" matches the Truke earbuds charging case
+2026-09-05T20:26:43	stock_check	p8 OUT OF STOCK - owner said no
+2026-09-05T20:26:44	suggest	p2 Godrej HIT Anti Mosquito Spray - closest to "truke"
+2026-09-05T20:26:44	refusal	p8 out of stock - "truke" - nothing charged
+2026-09-05T20:26:44	buyer_request	"amul"
+2026-09-05T20:26:45	resolve	product_request - matched p1 - ask=buy - The brand name 'Amul' directly matches the Amul ghee product.
+2026-09-05T20:26:45	stock_check	p1 OUT OF STOCK - owner said no
+2026-09-05T20:26:46	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "amul"
+2026-09-05T20:26:46	refusal	p1 out of stock - "amul" - nothing charged
+2026-09-05T20:26:46	buyer_request	"vim"
+2026-09-05T20:26:51	resolve	product_request - matched p7 - ask=buy - The buyer typed the brand name Vim, which matches the Vim dishwash gel (p7)
+2026-09-05T20:26:51	stock_check	p7 OUT OF STOCK - owner said no
+2026-09-05T20:26:56	suggest	p4 Pour Home French Flora Room Freshener (225 ml) - closest to "vim"
+2026-09-05T20:26:56	refusal	p7 out of stock - "vim" - nothing charged
+2026-09-05T20:26:56	buyer_request	"saffola"
+2026-09-05T20:27:05	resolve	product_request - matched p5 - ask=buy - User typed a brand name, so we assume they want to purchase the Saffola product.
+2026-09-05T20:27:05	stock_check	p5 OUT OF STOCK - owner said no
+2026-09-05T20:27:10	suggest	p3 Yoga Bar Millet Muesli Nuts & Seeds Crunch - closest to "saffola"
+2026-09-05T20:27:10	refusal	p5 out of stock - "saffola" - nothing charged
+2026-09-05T20:27:10	buyer_request	"yoga bar"
+2026-09-05T20:27:19	resolve	product_request - matched p3 - ask=buy - yoga bar matches the Yoga Bar muesli product
+2026-09-05T20:27:19	stock_check	p3 OUT OF STOCK - owner said no
+2026-09-05T20:27:23	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "yoga bar"
+2026-09-05T20:27:23	refusal	p3 out of stock - "yoga bar" - nothing charged
+2026-09-05T20:27:23	buyer_request	"godrej hit"
+2026-09-05T20:27:31	resolve	product_request - matched p2 - ask=buy - The buyer typed the product name, so it matches the mosquito spray
+2026-09-05T20:27:31	stock_check	p2 OUT OF STOCK - owner said no
+2026-09-05T20:27:36	suggest	p4 Pour Home French Flora Room Freshener (225 ml) - closest to "godrej hit"
+2026-09-05T20:27:36	refusal	p2 out of stock - "godrej hit" - nothing charged
+2026-09-05T20:27:36	buyer_request	"truk earphone"
+2026-09-05T20:27:45	resolve	product_request - matched p8 - ask=buy - The buyer likely wants the Truke earbuds, which match the misspelled brand and product type.
+2026-09-05T20:27:45	stock_check	p8 OUT OF STOCK - owner said no
+2026-09-05T20:27:50	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "truk earphone"
+2026-09-05T20:27:50	refusal	p8 out of stock - "truk earphone" - nothing charged
+2026-09-05T20:27:50	buyer_request	"amull ghee"
+2026-09-05T20:27:59	resolve	product_request - matched p1 - ask=buy - Customer typed a misspelled Amul ghee, which matches p1
+2026-09-05T20:27:59	stock_check	p1 OUT OF STOCK - owner said no
+2026-09-05T20:28:03	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "amull ghee"
+2026-09-05T20:28:03	refusal	p1 out of stock - "amull ghee" - nothing charged
+2026-09-05T20:28:03	buyer_request	"penut buttter"
+2026-09-05T20:28:13	resolve	product_request - matched p5 - ask=buy - User misspelled peanut butter, matched to p5
+2026-09-05T20:28:13	stock_check	p5 OUT OF STOCK - owner said no
+2026-09-05T20:28:18	suggest	p3 Yoga Bar Millet Muesli Nuts & Seeds Crunch - closest to "penut buttter"
+2026-09-05T20:28:18	refusal	p5 out of stock - "penut buttter" - nothing charged
+2026-09-05T20:28:18	buyer_request	"mosqito spray"
+2026-09-05T20:28:27	resolve	product_request - matched p2 - ask=buy - User typed mosquito spray, matching anti‑mosquito spray
+2026-09-05T20:28:27	stock_check	p2 OUT OF STOCK - owner said no
+2026-09-05T20:28:31	suggest	p4 Pour Home French Flora Room Freshener (225 ml) - closest to "mosqito spray"
+2026-09-05T20:28:31	refusal	p2 out of stock - "mosqito spray" - nothing charged
+2026-09-05T20:28:31	buyer_request	"musli"
+2026-09-05T20:28:40	resolve	product_request - matched p3 - ask=buy - Customer typed "musli", which matches the muesli product in the catalog
+2026-09-05T20:28:40	stock_check	p3 OUT OF STOCK - owner said no
+2026-09-05T20:28:41	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "musli"
+2026-09-05T20:28:41	refusal	p3 out of stock - "musli" - nothing charged
+2026-09-05T20:28:41	buyer_request	"earbuds"
+2026-09-05T20:28:47	resolve	product_request - matched p8 - ask=buy - buyer requested earbuds
+2026-09-05T20:28:47	stock_check	p8 OUT OF STOCK - owner said no
+2026-09-05T20:28:51	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "earbuds"
+2026-09-05T20:28:51	refusal	p8 out of stock - "earbuds" - nothing charged
+2026-09-05T20:28:51	buyer_request	"earphones"
+2026-09-05T20:29:01	resolve	product_request - matched p8 - ask=buy - Matched earbuds case as earphones
+2026-09-05T20:29:01	stock_check	p8 OUT OF STOCK - owner said no
+2026-09-05T20:29:06	suggest	p4 Pour Home French Flora Room Freshener (225 ml) - closest to "earphones"
+2026-09-05T20:29:06	refusal	p8 out of stock - "earphones" - nothing charged
+2026-09-05T20:29:06	buyer_request	"wireless earbuds"
+2026-09-05T20:29:18	resolve	lexical backstop matched p8
+2026-09-05T20:29:18	resolve	product_request - matched p8 - ask=buy - No earbuds, only a charging case is available
+2026-09-05T20:29:18	stock_check	p8 OUT OF STOCK - owner said no
+2026-09-05T20:29:23	suggest	p4 Pour Home French Flora Room Freshener (225 ml) - closest to "wireless earbuds"
+2026-09-05T20:29:23	refusal	p8 out of stock - "wireless earbuds" - nothing charged
+2026-09-05T20:29:23	buyer_request	"peanut butter"
+2026-09-05T20:29:32	resolve	product_request - matched p5 - ask=buy - User asked for peanut butter, and the catalog has a peanut butter item.
+2026-09-05T20:29:32	stock_check	p5 OUT OF STOCK - owner said no
+2026-09-05T20:29:37	suggest	p3 Yoga Bar Millet Muesli Nuts & Seeds Crunch - closest to "peanut butter"
+2026-09-05T20:29:37	refusal	p5 out of stock - "peanut butter" - nothing charged
+2026-09-05T20:29:37	buyer_request	"dishwash"
+2026-09-05T20:29:46	resolve	product_request - matched p7 - ask=buy - They asked for dishwash, so the dishwash gel matches
+2026-09-05T20:29:46	stock_check	p7 OUT OF STOCK - owner said no
+2026-09-05T20:29:51	suggest	p2 Godrej HIT Anti Mosquito Spray - closest to "dishwash"
+2026-09-05T20:29:51	refusal	p7 out of stock - "dishwash" - nothing charged
+2026-09-05T20:29:51	buyer_request	"room freshener"
+2026-09-05T20:30:01	resolve	product_request - matched p4 - ask=buy - The buyer asked for a room freshener, which matches item p4.
+2026-09-05T20:30:01	stock_check	p4 OUT OF STOCK - owner said no
+2026-09-05T20:30:06	suggest	p2 Godrej HIT Anti Mosquito Spray - closest to "room freshener"
+2026-09-05T20:30:06	refusal	p4 out of stock - "room freshener" - nothing charged
+2026-09-05T20:30:06	buyer_request	"palm sugar"
+2026-09-05T20:30:16	resolve	product_request - matched p6 - ask=buy - User asked for palm sugar, which directly matches product p6
+2026-09-05T20:30:16	stock_check	p6 OUT OF STOCK - owner said no
+2026-09-05T20:30:20	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "palm sugar"
+2026-09-05T20:30:20	refusal	p6 out of stock - "palm sugar" - nothing charged
+2026-09-05T20:30:20	buyer_request	"soap"
+2026-09-05T20:30:30	resolve	product_request - matched p7 - ask=buy - Dishwash gel is a soap, room freshener is the next closest cleaning product
+2026-09-05T20:30:30	stock_check	p7 OUT OF STOCK - owner said no
+2026-09-05T20:30:35	suggest	p4 Pour Home French Flora Room Freshener (225 ml) - closest to "soap"
+2026-09-05T20:30:35	refusal	p7 out of stock - "soap" - nothing charged
+2026-09-05T20:30:35	buyer_request	"something for cleaning"
+2026-09-05T20:30:45	resolve	category_request - matched p7,p4 - ask=category - Both dishwash gel and room freshener are cleaning products.
+2026-09-05T20:30:45	buyer_request	"breakfast"
+2026-09-05T20:30:56	resolve	category_request - matched p3,p5 - ask=category - Breakfast category matches muesli and peanut butter.
+2026-09-05T20:30:56	buyer_request	"something for mosquitoes"
+2026-09-05T20:31:07	resolve	product_request - matched p2 - ask=buy - they asked for a mosquito solution
+2026-09-05T20:31:07	stock_check	p2 OUT OF STOCK - owner said no
+2026-09-05T20:31:12	suggest	p4 Pour Home French Flora Room Freshener (225 ml) - closest to "something for mosquitoes"
+2026-09-05T20:31:12	refusal	p2 out of stock - "something for mosquitoes" - nothing charged
+2026-09-05T20:31:12	buyer_request	"i need something sweet"
+2026-09-05T20:31:21	resolve	product_request - matched p6,p5 - ask=buy - They asked for something sweet, so list sweet items
+2026-09-05T20:31:21	stock_check	p6 OUT OF STOCK - owner said no
+2026-09-05T20:31:26	suggest	p3 Yoga Bar Millet Muesli Nuts & Seeds Crunch - closest to "i need something sweet"
+2026-09-05T20:31:26	refusal	p6 out of stock - "i need something sweet" - nothing charged
+2026-09-05T20:31:26	buyer_request	"i need something"
+2026-09-05T20:31:34	resolve	unclear - matched - - ask=vague - The request is too vague to identify a specific product or category.
+2026-09-05T20:31:34	clarify	asked buyer: "Could you let me know what you are looking for?"
+2026-09-05T20:31:34	buyer_request	"hello"
+2026-09-05T20:31:42	resolve	unclear - matched - - ask=vague - User only said hello, no request.
+2026-09-05T20:31:42	clarify	asked buyer: "Hi! What would you like to purchase or know about?"
+2026-09-05T20:31:42	buyer_request	"asdkjfh"
+2026-09-05T20:31:54	resolve	unclear - matched - - ask=vague - The input 'asdkjfh' does not indicate any product or request.
+2026-09-05T20:31:54	clarify	asked buyer: "Could you please tell me what you are looking for?"
+2026-09-05T20:31:54	buyer_request	"how much is the ghee"
+2026-09-05T20:32:03	resolve	product_question - matched p1 - ask=question - User asked price of ghee, matched catalog item p1
+2026-09-05T20:32:03	buyer_request	"what do you have"
+2026-09-05T20:32:12	resolve	catalog_question - matched - - ask=catalog - User asked for the shop's inventory
+2026-09-05T20:32:12	buyer_request	"does the peanut butter have sugar"
+2026-09-05T20:32:21	resolve	product_question - matched p5,p6 - ask=question - Matches peanut butter and sugar terms in the query
+2026-09-05T20:32:21	buyer_request	"what all do u have"
+2026-09-05T20:32:32	resolve	catalog_question - matched - - ask=catalog - User asked what the shop has, i.e., the full catalog
+2026-09-05T20:32:32	buyer_request	"chocolates"
+2026-09-05T20:32:41	resolve	not_stocked - matched - - ask=buy - No chocolates in catalog, suggest sweet/snack alternatives
+2026-09-05T20:32:41	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "chocolates"
+2026-09-05T20:32:41	refusal	not stocked - "chocolates" - nothing charged
+2026-09-05T20:32:41	buyer_request	"a pen"
+2026-09-05T20:32:51	resolve	not_stocked - matched - - ask=buy - No pen in catalog, suggest closest small item
+2026-09-05T20:32:51	suggest	p8 Truke True Wireless Earbuds Charging Case (Black) - closest to "a pen"
+2026-09-05T20:32:51	refusal	not stocked - "a pen" - nothing charged
+2026-09-05T20:32:51	buyer_request	"cigarettes"
+2026-09-05T20:33:03	resolve	not_stocked - matched - - ask=buy - The catalog has no cigarettes or a close alternative.
+2026-09-05T20:33:03	suggest	no alternative offered
+2026-09-05T20:33:03	refusal	not stocked - "cigarettes" - nothing charged
+2026-09-05T20:33:03	buyer_request	"petrol"
+2026-09-05T20:33:13	resolve	not_stocked - matched - - ask=buy - No petrol in catalog; suggested sugar as alternative
+2026-09-05T20:33:13	suggest	p6 Sweetch Natural Palm Sugar 250g - closest to "petrol"
+2026-09-05T20:33:13	refusal	not stocked - "petrol" - nothing charged
+2026-09-05T20:33:23	buyer_request	"truke earphones"
+2026-09-05T20:33:25	resolve	lexical backstop matched p8
+2026-09-05T20:33:25	resolve	product_request - matched p8 - ask=buy - No exact earphones, but a Truke charging case is the closest item
+2026-09-05T20:33:25	stock_check	p8 OUT OF STOCK - owner said no
+2026-09-05T20:33:31	suggest	p3 Yoga Bar Millet Muesli Nuts & Seeds Crunch - closest to "truke earphones"
+2026-09-05T20:33:31	refusal	p8 out of stock - "truke earphones" - nothing charged
+2026-09-05T20:33:31	buyer_request	"earbuds"
+2026-09-05T20:33:41	resolve	product_request - matched p8 - ask=buy - User wants earbuds
+2026-09-05T20:33:41	stock_check	p8 OUT OF STOCK - owner said no
+2026-09-05T20:33:46	suggest	p4 Pour Home French Flora Room Freshener (225 ml) - closest to "earbuds"
+2026-09-05T20:33:46	refusal	p8 out of stock - "earbuds" - nothing charged
+2026-09-05T20:33:46	buyer_request	"chocolates"
+2026-09-05T20:33:56	resolve	not_stocked - matched - - ask=category - no chocolates in catalog, suggest similar sweet items
+2026-09-05T20:33:56	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "chocolates"
+2026-09-05T20:33:56	refusal	not stocked - "chocolates" - nothing charged
+2026-09-05T20:35:24	session_start	8 items loaded from catalog.json
+2026-09-05T20:35:36	buyer_request	"what do u have?"
+2026-09-05T20:35:38	resolve	catalog_question - matched - - ask=catalog - User asked for the whole catalog
+2026-09-05T20:35:54	buyer_request	"u have any chocolates, hershey's chocolates?"
+2026-09-05T20:35:55	resolve	not_stocked - matched - - ask=buy - No chocolates in catalog; suggest the closest sweet item (palm sugar) as an alternative.
+2026-09-05T20:35:55	suggest	p6 Sweetch Natural Palm Sugar 250g - closest to "u have any chocolates, hershey's chocolates?"
+2026-09-05T20:35:55	refusal	not stocked - "u have any chocolates, hershey's chocolates?" - nothing charged
+2026-09-05T20:36:03	buyer_request	"amul ghee?"
+2026-09-05T20:36:05	resolve	product_request - matched p1 - ask=buy - They asked for Amul ghee, which matches product p1.
+2026-09-05T20:36:08	stock_check	p1 IN STOCK - owner said yes
+2026-09-05T20:36:10	payment_link	p1 plink_TYOmtotHq1Ok3o Rs.135 https://rzp.io/rzp/1mffI5k
+2026-09-05T20:36:32	buyer_request	"chocolates?"
+2026-09-05T20:36:33	resolve	not_stocked - matched - - ask=buy - No chocolates, suggest sweet alternatives
+2026-09-05T20:36:33	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "chocolates?"
+2026-09-05T20:36:33	refusal	not stocked - "chocolates?" - nothing charged
+2026-09-05T20:36:37	buyer_request	"ok"
+2026-09-05T20:36:38	resolve	unclear - matched - - ask=vague - The input 'ok' lacks a clear shopping request.
+2026-09-05T20:36:38	clarify	asked buyer: "Could you please let me know what you are looking for?"
+2026-09-05T20:36:48	buyer_request	"give saffola crucnhu"
+2026-09-05T20:36:49	resolve	product_request - matched p5 - ask=buy - The request clearly asks for the Saffola Crunchy product.
+2026-09-05T20:36:51	stock_check	p5 OUT OF STOCK - owner said no
+2026-09-05T20:36:52	suggest	p3 Yoga Bar Millet Muesli Nuts & Seeds Crunch - closest to "give saffola crucnhu"
+2026-09-05T20:36:52	refusal	p5 out of stock - "give saffola crucnhu" - nothing charged
+2026-09-05T20:37:10	buyer_request	"nah not that. anything else?"
+2026-09-05T20:37:11	resolve	catalog_question - matched - - ask=catalog - User asked for other items
+2026-09-05T21:15:25	session_end	buyer left
+2026-09-05T21:15:28	session_start	8 items loaded from catalog.json
+2026-09-05T21:25:05	session_end	buyer left
+2026-09-05T21:51:18	session_start	8 items loaded from catalog.json
+2026-09-05T21:51:26	buyer_request	"choclates"
+2026-09-05T21:51:29	resolve	not_stocked - matched - - ask=buy - no chocolates in catalog, suggest sweet peanut butter as closest alternative
+2026-09-05T21:51:29	suggest	p5 Saffola Crunchy Peanut Butter with Jaggery (350g) - closest to "choclates"
+2026-09-05T21:51:29	refusal	not stocked - "choclates" - nothing charged
+2026-09-05T21:51:36	buyer_request	"saffola crunchy"
+2026-09-05T21:51:37	resolve	product_request - matched p5 - ask=buy - They want the Saffola Crunchy Peanut Butter.
+2026-09-05T21:51:40	stock_check	p5 IN STOCK - owner said yes
+2026-09-05T21:51:42	payment_link	p5 plink_TYQ4gP832ZqLch Rs.180 https://rzp.io/rzp/qXTlhE1p

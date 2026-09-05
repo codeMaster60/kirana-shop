@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Amul High Aroma Cow Ghee Jar 200ml",
+    "description": "Pure cow ghee packed in a convenient plastic jar for daily culinary use.",
+    "price_inr": 135,
+    "id": "p1",
+    "photo": "Amul Cow Ghee.jpeg"
+  },
+  {
+    "name": "Godrej HIT Anti Mosquito Spray",
+    "description": "An aerosol spray designed to eliminate dengue and malaria-spreading mosquitoes.",
+    "price_inr": 280,
+    "id": "p2",
+    "photo": "Hit Mosquito Repellent.jpeg"
+  },
+  {
+    "name": "Yoga Bar Millet Muesli Nuts & Seeds Crunch",
+    "description": "A wholesome blend of oats, jowar, ragi, nuts, and seeds for a crispy and nutritious breakfast cereal.",
+    "price_inr": 299,
+    "id": "p3",
+    "photo": "Millet muesli.jpeg"
+  },
+  {
+    "name": "Pour Home French Flora Room Freshener (225 ml)",
+    "description": "A long-lasting room freshener spray infused with a fresh French Flora floral scent.",
+    "price_inr": 149,
+    "id": "p4",
+    "photo": "Pour Home Room Freshner.jpeg"
+  },
+  {
+    "name": "Saffola Crunchy Peanut Butter with Jaggery (350g)",
+    "description": "Crunchy peanut butter made with roasted peanuts and sweetened naturally with jaggery without refined sugar.",
+    "price_inr": 180,
+    "id": "p5",
+    "photo": "Saffola Peanut Butter.jpeg"
+  },
+  {
+    "name": "Sweetch Natural Palm Sugar 250g",
+    "description": "Chemical-free natural palm sugar with low glycemic index and essential minerals.",
+    "price_inr": 185,
+    "id": "p6",
+    "photo": "Swetch Palm Sugar.jpeg"
+  },
+  {
+    "name": "Vim Lemon Dishwash Gel Pouch",
+    "description": "A concentrated dishwashing liquid gel infused with lemon power to remove tough grease and odours.",
+    "price_inr": 20,
+    "id": "p7",
+    "photo": "Vim Liquid.jpeg"
+  },
+  {
+    "name": "Truke True Wireless Earbuds Charging Case (Black)",
+    "description": "Compact black charging case for Truke Bluetooth wireless earbuds.",
+    "price_inr": 899,
+    "id": "p8",
+    "photo": "truke earphones.jpeg"
+  }
+]
